@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+.main {
+    background-image: url(assets/Nbg.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    /* background-size: max(1200px, 100vw); */
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    /* max-width: 60vw; */
+    max-width: 78vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    /* width: 114px; */
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    margin-top: 30px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    /* height: 100%; */
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 56px;
+    width: 50vw;
+    text-align: center;
+    line-height: 1.3em;
+}
+.hero> :nth-child(2){
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.3em;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    /* background-color: rgb(46, 44, 44);  */
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+.main button:first-child{
+    border: 1px solid gray;
+}
+.btn{
+    /* padding: 3px 8px; */
+    padding: 5px 25px;
+    font-weight: 400;
+    color: white;
+    /* background-color: rgba(248, 243, 243, 0.021); */
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    /* border: 1px solid white; */
+    border: 1px solid red;
+    cursor: pointer;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 10px 38px;
+    font-size: 21px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 15px 180px 15px 15px;
+    color: white;
+    /* font-size: 12px; */
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.recom div:first-child{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 40px 0px 10px 150px
+}
+.hor-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+.hor-box img{
+    border-radius: 8px;
+    height: 245px;
+}
+.hor-box p{
+    color: red;
+    font-size: 80px;
+}
+.info{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 40px 0px 10px 150px
+}
+.box1{
+    height: 275px;
+    width: 236px;
+    color: white;
+    /* background-color: red; */
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);;
+    border-radius: 15px;
+    padding: 25px 15px 15px 15px
+}
+.box1 h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.box1 p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.hor-box button{
+    height: 120px;
+    width: 25px;
+    border-radius: 7px;
+    font-size: xx-large;
+    color: white;
+    background: gray;
+    border: 1px solid gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.third .box2{
+    height: 40px;
+    width: 355px;
+    margin: 15px 0px 15px 150px;
+    border: 1px solid rgb(109, 55, 190);
+    /* color: white; */
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+}
+/* .box3:hover{
+    background-color: gray;
+} */
+.boxes1 .box3{
+    /* transition: all 1s ease-out; */
+    color: white;
+    height: 80px;
+    width: 1082px;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.third .box3 p:nth-child(2){
+    font-size: 70px;
+    font-weight: 100;
+}
+.login p{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    margin: 70px 0px 15px 0px;
+}
+.login .btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.login .btn2 input{
+    padding: 15px 360px 15px 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.login .btn2 button{
+    background-color: red;
+    color: white;
+    padding: 11px 35px;
+    font-size: 21px;
+    border-radius: 4px;
+    font-weight: 600;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.last p{
+    margin: 80px 0px 40px 150px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.last p span{
+    text-decoration: underline;
+}
+.end{
+    /* display: flex;
+    gap: 25px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* gap: 25px; */
+    margin: 0px 150px;
+}
+.end div{
+    gap: 10px;
+}
+.last div li{
+    color: rgba(255, 255, 255, 0.7);
+    list-style: none;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.last .btn3{
+    padding: 5px 40px;
+    font-weight: 400;
+    color: white;
+    /* background-color: rgba(248, 243, 243, 0.021); */
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin: 45px 0px 40px 150px;
+}
+.last .name{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin: 0px 0px 90px 150px;
+}
